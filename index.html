@@ -1,16 +1,20 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>generator password</title>
+    <title>Password Generator</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="text-welcome">
-      <h1 class="welcome">Chào bạn đến với trang web tự tạo mật khẩu</h1>
+      <h1 class="welcome">Chào bạn đến với trang web tự tạo mật khẩu - Password Generator</h1>
       <p class="welcome">
-        Nơi này sẽ tự tạo một mật khẩu với cấp độ mạnh cho bạn
+        Nơi này sẽ tự tạo một mật khẩu với cấp độ mạnh với độ dài là 20 kí tự 
       </p>
+    <p>
+      *Lưu ý: Bạn chỉ có thể tự tạo ra mật khẩu với các thành phần như: kí tự chữ, kí tự số, kí tự chữ in hoa và độ dài là 20 kí tự. Bạn không thể tự custom mật khẩu theo ý của bạn được.
+    </p>
     </div>
 
     <div class="generator-password">
@@ -19,7 +23,12 @@
       <div id="show">
         <h3 id="show-password"></h3>
       </div>
+      <h3>
+        Nếu bạn muốn kiểm tra độ bảo mật của mật khẩu thì bạn có thể vào trang web này: 
+      </h3>
+      <a href='https://www.security.org/how-secure-is-my-password/', target='	_blank'>https://www.security.org/how-secure-is-my-password/</a>
     </div>
+    
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>

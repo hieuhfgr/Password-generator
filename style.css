@@ -3,11 +3,17 @@ html {
   margin-bottom: 10px;
 }
 
-
 #show {
   margin-top: 20px;
   padding: 1em;
   background-color: #7e848f;
   color: black;
   border: solid;
+}
+
+button
+{
+  width: 70%;
+  height: 70px;
+  font-size: larger;
 }
